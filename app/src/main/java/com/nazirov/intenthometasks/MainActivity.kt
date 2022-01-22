@@ -34,10 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        var task4 = findViewById<Button>(R.id.btn_task4)
-        task4.setOnClickListener {
 
-        }
     }
 
     private fun openDetails3(user: User) {
