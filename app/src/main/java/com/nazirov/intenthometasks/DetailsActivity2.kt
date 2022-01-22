@@ -16,7 +16,7 @@ class DetailsActivity2 : AppCompatActivity() {
     }
 
     private fun initViews() {
-        var task2 = findViewById<TextView>(R.id.btn_task2)
+        var task2 = findViewById<TextView>(R.id.tv_details2)
 
         var user = intent.getSerializableExtra("user")
         Log.d(TAG,user.toString())

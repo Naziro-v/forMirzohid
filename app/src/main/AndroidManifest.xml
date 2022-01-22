@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntenthomeTasks">
         <activity
+            android:name=".DetailsActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity3"
+            android:exported="false" />
+        <activity
             android:name=".DetailsActivity2"
             android:exported="true" />
         <activity
